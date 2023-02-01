@@ -1,0 +1,45 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1675254108792' stop='1675254108887'>
+    <name>Login feature validations</name>
+    <title>Login feature validations</title>
+    <test-cases>
+        <test-case start='1675254108792' status='broken' stop='1675254108886'>
+            <name>TC6 - As a user, it should store credentials when remember me checkbox is checked</name>
+            <title>TC6 - As a user, it should store credentials when remember me checkbox is checked</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-109.0.5414.120'/>
+            </parameters>
+            <steps>
+                <step start='1675254108794' status='broken' stop='1675254108886'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1675254108795' status='passed' stop='1675254108885'>
+                            <name>POST /session/:sessionId/url</name>
+                            <title>POST /session/:sessionId/url</title>
+                            <attachments>
+                                <attachment title='Request' source='26e10e3e-b50d-48e4-bbd7-13fd86b571d4-attachment.json' type='application/json' size='61'/>
+                                <attachment title='Screenshot' source='a7d0440a-64d3-4ffe-8318-71ff92b7d774-attachment.png' type='image/png' size='4051'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>browser.url(...).fullscreenWindow is not a function</message>
+                <stack-trace>TypeError: browser.url(...).fullscreenWindow is not a function
+                    at LoginPage.open (C:\Automation\AsianGroup\test\pageobjects\page.js:19:72)
+                    at LoginPage.open (C:\Automation\AsianGroup\test\pageobjects\login.page.js:65:22)
+                    at Context.&lt;anonymous> (C:\Automation\AsianGroup\test\specs\login.e2e.js:82:25)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

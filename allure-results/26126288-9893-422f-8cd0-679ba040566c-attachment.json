@@ -1,0 +1,4 @@
+{
+  "using": "css selector",
+  "value": "a:nth-of-type(4) > .btn"
+}

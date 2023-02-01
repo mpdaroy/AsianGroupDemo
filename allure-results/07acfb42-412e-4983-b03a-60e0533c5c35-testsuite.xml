@@ -1,0 +1,59 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1675202494978' stop='1675202499631'>
+    <name>Register feature validations</name>
+    <title>Register feature validations</title>
+    <test-cases>
+        <test-case start='1675202494979' status='broken' stop='1675202499630'>
+            <name>should be able to register new user successfully</name>
+            <title>should be able to register new user successfully</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-109.0.5414.120'/>
+            </parameters>
+            <steps>
+                <step start='1675202494980' status='passed' stop='1675202499267'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='86b11a5c-780f-4de0-8613-1972a8a940aa-attachment.json' type='application/json' size='61'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1675202499268' status='passed' stop='1675202499292'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='d4cc9a85-b169-4926-a5a2-7871937c218e-attachment.json' type='application/json' size='66'/>
+                        <attachment title='Response' source='87de87db-ec67-4394-8655-38b244935bf9-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1675202499303' status='passed' stop='1675202499492'>
+                    <name>POST /session/:sessionId/element/ffdd8572-a7eb-4261-be93-400522f52224/click</name>
+                    <title>POST /session/:sessionId/element/ffdd8572-a7eb-4261-be93-400522f52224/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1675202499492' status='passed' stop='1675202499629'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='611fd2e8-d139-4422-89be-2c0199e2957f-attachment.png' type='image/png' size='83259'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Cannot read properties of undefined (reading 'email')</message>
+                <stack-trace>TypeError: Cannot read properties of undefined (reading 'email')
+                    at Context.&lt;anonymous> (C:\Automation\AsianGroup\test\specs\register.e2e.js:11:42)
+                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

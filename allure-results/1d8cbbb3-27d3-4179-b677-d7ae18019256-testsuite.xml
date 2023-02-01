@@ -1,0 +1,59 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1675203027419' stop='1675203029801'>
+    <name>Register feature validations</name>
+    <title>Register feature validations</title>
+    <test-cases>
+        <test-case start='1675203027420' status='broken' stop='1675203029800'>
+            <name>should be able to register new user successfully</name>
+            <title>should be able to register new user successfully</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-109.0.5414.120'/>
+            </parameters>
+            <steps>
+                <step start='1675203027421' status='passed' stop='1675203029462'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='cf33fbc5-fbde-4544-bcd0-ee7e99c8d294-attachment.json' type='application/json' size='61'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1675203029463' status='passed' stop='1675203029486'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='14eb1311-bdf5-4ce6-84d0-ca672d9b9328-attachment.json' type='application/json' size='66'/>
+                        <attachment title='Response' source='c9bc7d23-da14-4801-b43b-87302512344d-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1675203029497' status='passed' stop='1675203029660'>
+                    <name>POST /session/:sessionId/element/1b72d49d-0a92-4e63-b17e-59d6b435c63f/click</name>
+                    <title>POST /session/:sessionId/element/1b72d49d-0a92-4e63-b17e-59d6b435c63f/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1675203029663' status='passed' stop='1675203029799'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='6002cf7f-5ee1-4adc-aadf-f740c12270bd-attachment.png' type='image/png' size='83259'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>faker.password is not a function</message>
+                <stack-trace>TypeError: faker.password is not a function
+                    at Context.&lt;anonymous> (C:\Automation\AsianGroup\test\specs\register.e2e.js:13:30)
+                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

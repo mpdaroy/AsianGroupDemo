@@ -1,0 +1,733 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1675254917704' stop='1675254918137'>
+    <name>Login feature validations</name>
+    <title>Login feature validations</title>
+    <test-cases>
+        <test-case start='1675254917704' status='broken' stop='1675254917803'>
+            <name>TC1 - As a user, it should be able to select language on dropdown - JP</name>
+            <title>TC1 - As a user, it should be able to select language on dropdown - JP</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-109.0.5414.120'/>
+            </parameters>
+            <steps>
+                <step start='1675254917706' status='broken' stop='1675254917803'>
+                    <name>DELETE /session/:sessionId</name>
+                    <title>DELETE /session/:sessionId</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1675254917707' status='broken' stop='1675254917803'>
+                            <name>POST /session/:sessionId/window/maximize</name>
+                            <title>POST /session/:sessionId/window/maximize</title>
+                            <attachments/>
+                            <steps>
+                                <step start='1675254917707' status='broken' stop='1675254917803'>
+                                    <name>POST /session/:sessionId/url</name>
+                                    <title>POST /session/:sessionId/url</title>
+                                    <attachments>
+                                        <attachment title='Request' source='247afdb5-ccf1-4efc-98c1-5d1c6a7d2ff7-attachment.json' type='application/json' size='61'/>
+                                    </attachments>
+                                    <steps>
+                                        <step start='1675254917710' status='broken' stop='1675254917803'>
+                                            <name>POST /session/:sessionId/window/maximize</name>
+                                            <title>POST /session/:sessionId/window/maximize</title>
+                                            <attachments/>
+                                            <steps>
+                                                <step start='1675254917712' status='passed' stop='1675254917760'>
+                                                    <name>POST /session/:sessionId/element</name>
+                                                    <title>POST /session/:sessionId/element</title>
+                                                    <attachments>
+                                                        <attachment title='Request' source='c17e396d-51b3-4353-9f8e-606694e34ea1-attachment.json' type='application/json' size='67'/>
+                                                    </attachments>
+                                                    <steps/>
+                                                </step>
+                                                <step start='1675254917799' status='broken' stop='1675254917803'>
+                                                    <name>GET /session/:sessionId/screenshot</name>
+                                                    <title>GET /session/:sessionId/screenshot</title>
+                                                    <attachments/>
+                                                    <steps/>
+                                                </step>
+                                            </steps>
+                                        </step>
+                                    </steps>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>invalid session id</message>
+                <stack-trace>invalid session id: invalid session id
+                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at async LoginPage.selectLanguage (C:\Automation\AsianGroup\test\pageobjects\page.js:24:9)
+                    at async Context.&lt;anonymous> (C:\Automation\AsianGroup\test\specs\login.e2e.js:7:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1675254917803' status='broken' stop='1675254917841'>
+            <name>TC1 - As a user, it should be able to select language on dropdown - KR</name>
+            <title>TC1 - As a user, it should be able to select language on dropdown - KR</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-109.0.5414.120'/>
+            </parameters>
+            <steps>
+                <step start='1675254917804' status='broken' stop='1675254917841'>
+                    <name>DELETE /session/:sessionId</name>
+                    <title>DELETE /session/:sessionId</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1675254917805' status='broken' stop='1675254917841'>
+                            <name>POST /session/:sessionId/window/maximize</name>
+                            <title>POST /session/:sessionId/window/maximize</title>
+                            <attachments/>
+                            <steps>
+                                <step start='1675254917805' status='broken' stop='1675254917841'>
+                                    <name>POST /session/:sessionId/url</name>
+                                    <title>POST /session/:sessionId/url</title>
+                                    <attachments>
+                                        <attachment title='Request' source='0e4c1270-84c5-470e-b225-c34b1a5743f8-attachment.json' type='application/json' size='61'/>
+                                    </attachments>
+                                    <steps>
+                                        <step start='1675254917807' status='broken' stop='1675254917841'>
+                                            <name>POST /session/:sessionId/window/maximize</name>
+                                            <title>POST /session/:sessionId/window/maximize</title>
+                                            <attachments/>
+                                            <steps>
+                                                <step start='1675254917808' status='passed' stop='1675254917822'>
+                                                    <name>POST /session/:sessionId/element</name>
+                                                    <title>POST /session/:sessionId/element</title>
+                                                    <attachments>
+                                                        <attachment title='Request' source='5327fde0-cdad-4df6-806f-ce39b60c4bb3-attachment.json' type='application/json' size='67'/>
+                                                    </attachments>
+                                                    <steps/>
+                                                </step>
+                                                <step start='1675254917836' status='broken' stop='1675254917841'>
+                                                    <name>GET /session/:sessionId/screenshot</name>
+                                                    <title>GET /session/:sessionId/screenshot</title>
+                                                    <attachments/>
+                                                    <steps/>
+                                                </step>
+                                            </steps>
+                                        </step>
+                                    </steps>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>invalid session id</message>
+                <stack-trace>invalid session id: invalid session id
+                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at async LoginPage.selectLanguage (C:\Automation\AsianGroup\test\pageobjects\page.js:24:9)
+                    at async Context.&lt;anonymous> (C:\Automation\AsianGroup\test\specs\login.e2e.js:15:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1675254917842' status='broken' stop='1675254917880'>
+            <name>TC1 - As a user, it should be able to select language on dropdown - CN</name>
+            <title>TC1 - As a user, it should be able to select language on dropdown - CN</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-109.0.5414.120'/>
+            </parameters>
+            <steps>
+                <step start='1675254917842' status='broken' stop='1675254917880'>
+                    <name>DELETE /session/:sessionId</name>
+                    <title>DELETE /session/:sessionId</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1675254917843' status='broken' stop='1675254917880'>
+                            <name>POST /session/:sessionId/window/maximize</name>
+                            <title>POST /session/:sessionId/window/maximize</title>
+                            <attachments/>
+                            <steps>
+                                <step start='1675254917844' status='broken' stop='1675254917880'>
+                                    <name>POST /session/:sessionId/url</name>
+                                    <title>POST /session/:sessionId/url</title>
+                                    <attachments>
+                                        <attachment title='Request' source='e7e994ea-3401-440b-9a4f-6d5789821994-attachment.json' type='application/json' size='61'/>
+                                    </attachments>
+                                    <steps>
+                                        <step start='1675254917846' status='broken' stop='1675254917880'>
+                                            <name>POST /session/:sessionId/window/maximize</name>
+                                            <title>POST /session/:sessionId/window/maximize</title>
+                                            <attachments/>
+                                            <steps>
+                                                <step start='1675254917846' status='passed' stop='1675254917855'>
+                                                    <name>POST /session/:sessionId/element</name>
+                                                    <title>POST /session/:sessionId/element</title>
+                                                    <attachments>
+                                                        <attachment title='Request' source='c795646a-408c-40b3-8d2c-ac8065cfd852-attachment.json' type='application/json' size='67'/>
+                                                    </attachments>
+                                                    <steps/>
+                                                </step>
+                                                <step start='1675254917876' status='broken' stop='1675254917880'>
+                                                    <name>GET /session/:sessionId/screenshot</name>
+                                                    <title>GET /session/:sessionId/screenshot</title>
+                                                    <attachments/>
+                                                    <steps/>
+                                                </step>
+                                            </steps>
+                                        </step>
+                                    </steps>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>invalid session id</message>
+                <stack-trace>invalid session id: invalid session id
+                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at async LoginPage.selectLanguage (C:\Automation\AsianGroup\test\pageobjects\page.js:24:9)
+                    at async Context.&lt;anonymous> (C:\Automation\AsianGroup\test\specs\login.e2e.js:23:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1675254917880' status='broken' stop='1675254917912'>
+            <name>TC1 - As a user, it should be able to select language on dropdown - EN</name>
+            <title>TC1 - As a user, it should be able to select language on dropdown - EN</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-109.0.5414.120'/>
+            </parameters>
+            <steps>
+                <step start='1675254917881' status='broken' stop='1675254917912'>
+                    <name>DELETE /session/:sessionId</name>
+                    <title>DELETE /session/:sessionId</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1675254917881' status='broken' stop='1675254917912'>
+                            <name>POST /session/:sessionId/window/maximize</name>
+                            <title>POST /session/:sessionId/window/maximize</title>
+                            <attachments/>
+                            <steps>
+                                <step start='1675254917881' status='broken' stop='1675254917912'>
+                                    <name>POST /session/:sessionId/url</name>
+                                    <title>POST /session/:sessionId/url</title>
+                                    <attachments>
+                                        <attachment title='Request' source='84c7d02a-29cc-46c9-a367-7b718a8b299a-attachment.json' type='application/json' size='61'/>
+                                    </attachments>
+                                    <steps>
+                                        <step start='1675254917882' status='broken' stop='1675254917912'>
+                                            <name>POST /session/:sessionId/window/maximize</name>
+                                            <title>POST /session/:sessionId/window/maximize</title>
+                                            <attachments/>
+                                            <steps>
+                                                <step start='1675254917883' status='passed' stop='1675254917894'>
+                                                    <name>POST /session/:sessionId/element</name>
+                                                    <title>POST /session/:sessionId/element</title>
+                                                    <attachments>
+                                                        <attachment title='Request' source='4206a727-cfa1-4bbe-9ddc-3e233dfb9698-attachment.json' type='application/json' size='67'/>
+                                                    </attachments>
+                                                    <steps/>
+                                                </step>
+                                                <step start='1675254917905' status='broken' stop='1675254917912'>
+                                                    <name>GET /session/:sessionId/screenshot</name>
+                                                    <title>GET /session/:sessionId/screenshot</title>
+                                                    <attachments/>
+                                                    <steps/>
+                                                </step>
+                                            </steps>
+                                        </step>
+                                    </steps>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>invalid session id</message>
+                <stack-trace>invalid session id: invalid session id
+                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at async LoginPage.selectLanguage (C:\Automation\AsianGroup\test\pageobjects\page.js:24:9)
+                    at async Context.&lt;anonymous> (C:\Automation\AsianGroup\test\specs\login.e2e.js:31:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1675254917913' status='broken' stop='1675254917960'>
+            <name>TC2 - As a user, it should prompt error message when email is misspelled, blank or invalid</name>
+            <title>TC2 - As a user, it should prompt error message when email is misspelled, blank or invalid</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-109.0.5414.120'/>
+            </parameters>
+            <steps>
+                <step start='1675254917913' status='broken' stop='1675254917960'>
+                    <name>DELETE /session/:sessionId</name>
+                    <title>DELETE /session/:sessionId</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1675254917913' status='broken' stop='1675254917960'>
+                            <name>POST /session/:sessionId/window/maximize</name>
+                            <title>POST /session/:sessionId/window/maximize</title>
+                            <attachments/>
+                            <steps>
+                                <step start='1675254917914' status='broken' stop='1675254917960'>
+                                    <name>POST /session/:sessionId/url</name>
+                                    <title>POST /session/:sessionId/url</title>
+                                    <attachments>
+                                        <attachment title='Request' source='e90a55b6-6f6c-4612-981c-b73c61074756-attachment.json' type='application/json' size='61'/>
+                                    </attachments>
+                                    <steps>
+                                        <step start='1675254917915' status='broken' stop='1675254917960'>
+                                            <name>POST /session/:sessionId/window/maximize</name>
+                                            <title>POST /session/:sessionId/window/maximize</title>
+                                            <attachments/>
+                                            <steps>
+                                                <step start='1675254917915' status='passed' stop='1675254917925'>
+                                                    <name>POST /session/:sessionId/element</name>
+                                                    <title>POST /session/:sessionId/element</title>
+                                                    <attachments>
+                                                        <attachment title='Request' source='9c76ada6-3dee-48cf-8517-817cf0c71430-attachment.json' type='application/json' size='53'/>
+                                                    </attachments>
+                                                    <steps/>
+                                                </step>
+                                                <step start='1675254917939' status='broken' stop='1675254917960'>
+                                                    <name>GET /session/:sessionId/screenshot</name>
+                                                    <title>GET /session/:sessionId/screenshot</title>
+                                                    <attachments/>
+                                                    <steps/>
+                                                </step>
+                                            </steps>
+                                        </step>
+                                    </steps>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>invalid session id</message>
+                <stack-trace>invalid session id: invalid session id
+                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at async LoginPage.login (C:\Automation\AsianGroup\test\pageobjects\login.page.js:45:9)
+                    at async Context.&lt;anonymous> (C:\Automation\AsianGroup\test\specs\login.e2e.js:41:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1675254917960' status='broken' stop='1675254917988'>
+            <name>TC3 - As a user, it should prompt error message when password is blank or incorrect</name>
+            <title>TC3 - As a user, it should prompt error message when password is blank or incorrect</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-109.0.5414.120'/>
+            </parameters>
+            <steps>
+                <step start='1675254917961' status='broken' stop='1675254917988'>
+                    <name>DELETE /session/:sessionId</name>
+                    <title>DELETE /session/:sessionId</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1675254917962' status='broken' stop='1675254917988'>
+                            <name>POST /session/:sessionId/window/maximize</name>
+                            <title>POST /session/:sessionId/window/maximize</title>
+                            <attachments/>
+                            <steps>
+                                <step start='1675254917962' status='broken' stop='1675254917988'>
+                                    <name>POST /session/:sessionId/url</name>
+                                    <title>POST /session/:sessionId/url</title>
+                                    <attachments>
+                                        <attachment title='Request' source='d7f85cb4-d194-48b9-8eb2-209bf3a3f6d9-attachment.json' type='application/json' size='61'/>
+                                    </attachments>
+                                    <steps>
+                                        <step start='1675254917963' status='broken' stop='1675254917988'>
+                                            <name>POST /session/:sessionId/window/maximize</name>
+                                            <title>POST /session/:sessionId/window/maximize</title>
+                                            <attachments/>
+                                            <steps>
+                                                <step start='1675254917964' status='passed' stop='1675254917976'>
+                                                    <name>POST /session/:sessionId/element</name>
+                                                    <title>POST /session/:sessionId/element</title>
+                                                    <attachments>
+                                                        <attachment title='Request' source='8631bdc5-19d4-4afd-9142-f43b9cf82902-attachment.json' type='application/json' size='53'/>
+                                                    </attachments>
+                                                    <steps/>
+                                                </step>
+                                                <step start='1675254917984' status='broken' stop='1675254917988'>
+                                                    <name>GET /session/:sessionId/screenshot</name>
+                                                    <title>GET /session/:sessionId/screenshot</title>
+                                                    <attachments/>
+                                                    <steps/>
+                                                </step>
+                                            </steps>
+                                        </step>
+                                    </steps>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>invalid session id</message>
+                <stack-trace>invalid session id: invalid session id
+                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at async LoginPage.login (C:\Automation\AsianGroup\test\pageobjects\login.page.js:45:9)
+                    at async Context.&lt;anonymous> (C:\Automation\AsianGroup\test\specs\login.e2e.js:58:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1675254917989' status='broken' stop='1675254918018'>
+            <name>TC4 - As a user, it should load Forgot Password page when click forgot password link</name>
+            <title>TC4 - As a user, it should load Forgot Password page when click forgot password link</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-109.0.5414.120'/>
+            </parameters>
+            <steps>
+                <step start='1675254917989' status='broken' stop='1675254918018'>
+                    <name>DELETE /session/:sessionId</name>
+                    <title>DELETE /session/:sessionId</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1675254917989' status='broken' stop='1675254918018'>
+                            <name>POST /session/:sessionId/window/maximize</name>
+                            <title>POST /session/:sessionId/window/maximize</title>
+                            <attachments/>
+                            <steps>
+                                <step start='1675254917989' status='broken' stop='1675254918018'>
+                                    <name>POST /session/:sessionId/url</name>
+                                    <title>POST /session/:sessionId/url</title>
+                                    <attachments>
+                                        <attachment title='Request' source='9bfc7e79-eb34-4ce7-9eda-0aa3004b47d3-attachment.json' type='application/json' size='61'/>
+                                    </attachments>
+                                    <steps>
+                                        <step start='1675254917991' status='broken' stop='1675254918018'>
+                                            <name>POST /session/:sessionId/window/maximize</name>
+                                            <title>POST /session/:sessionId/window/maximize</title>
+                                            <attachments/>
+                                            <steps>
+                                                <step start='1675254917991' status='passed' stop='1675254918001'>
+                                                    <name>POST /session/:sessionId/element</name>
+                                                    <title>POST /session/:sessionId/element</title>
+                                                    <attachments>
+                                                        <attachment title='Request' source='2ee1721d-5383-4b14-8e78-52ec721dc580-attachment.json' type='application/json' size='65'/>
+                                                    </attachments>
+                                                    <steps/>
+                                                </step>
+                                                <step start='1675254918011' status='broken' stop='1675254918018'>
+                                                    <name>GET /session/:sessionId/screenshot</name>
+                                                    <title>GET /session/:sessionId/screenshot</title>
+                                                    <attachments/>
+                                                    <steps/>
+                                                </step>
+                                            </steps>
+                                        </step>
+                                    </steps>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>invalid session id</message>
+                <stack-trace>invalid session id: invalid session id
+                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at async LoginPage.clickForgotPassword (C:\Automation\AsianGroup\test\pageobjects\login.page.js:58:9)
+                    at async Context.&lt;anonymous> (C:\Automation\AsianGroup\test\specs\login.e2e.js:69:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1675254918018' status='broken' stop='1675254918045'>
+            <name>TC5 - As a user, it should navigate to Register Page when clicking on Register link</name>
+            <title>TC5 - As a user, it should navigate to Register Page when clicking on Register link</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-109.0.5414.120'/>
+            </parameters>
+            <steps>
+                <step start='1675254918019' status='broken' stop='1675254918045'>
+                    <name>DELETE /session/:sessionId</name>
+                    <title>DELETE /session/:sessionId</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1675254918019' status='broken' stop='1675254918045'>
+                            <name>POST /session/:sessionId/window/maximize</name>
+                            <title>POST /session/:sessionId/window/maximize</title>
+                            <attachments/>
+                            <steps>
+                                <step start='1675254918019' status='broken' stop='1675254918045'>
+                                    <name>POST /session/:sessionId/url</name>
+                                    <title>POST /session/:sessionId/url</title>
+                                    <attachments>
+                                        <attachment title='Request' source='c5f2cf0e-16eb-4873-83d6-bfb4f1d95739-attachment.json' type='application/json' size='61'/>
+                                    </attachments>
+                                    <steps>
+                                        <step start='1675254918020' status='broken' stop='1675254918045'>
+                                            <name>POST /session/:sessionId/window/maximize</name>
+                                            <title>POST /session/:sessionId/window/maximize</title>
+                                            <attachments/>
+                                            <steps>
+                                                <step start='1675254918020' status='passed' stop='1675254918030'>
+                                                    <name>POST /session/:sessionId/element</name>
+                                                    <title>POST /session/:sessionId/element</title>
+                                                    <attachments>
+                                                        <attachment title='Request' source='3d082589-83b8-4f5c-a80a-513e6efcf2b8-attachment.json' type='application/json' size='66'/>
+                                                    </attachments>
+                                                    <steps/>
+                                                </step>
+                                                <step start='1675254918041' status='broken' stop='1675254918045'>
+                                                    <name>GET /session/:sessionId/screenshot</name>
+                                                    <title>GET /session/:sessionId/screenshot</title>
+                                                    <attachments/>
+                                                    <steps/>
+                                                </step>
+                                            </steps>
+                                        </step>
+                                    </steps>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>invalid session id</message>
+                <stack-trace>invalid session id: invalid session id
+                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at async LoginPage.registerClick (C:\Automation\AsianGroup\test\pageobjects\login.page.js:54:9)
+                    at async Context.&lt;anonymous> (C:\Automation\AsianGroup\test\specs\login.e2e.js:76:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1675254918045' status='broken' stop='1675254918067'>
+            <name>TC6 - As a user, it should store credentials when remember me checkbox is checked</name>
+            <title>TC6 - As a user, it should store credentials when remember me checkbox is checked</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-109.0.5414.120'/>
+            </parameters>
+            <steps>
+                <step start='1675254918046' status='broken' stop='1675254918067'>
+                    <name>DELETE /session/:sessionId</name>
+                    <title>DELETE /session/:sessionId</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1675254918046' status='broken' stop='1675254918067'>
+                            <name>POST /session/:sessionId/window/maximize</name>
+                            <title>POST /session/:sessionId/window/maximize</title>
+                            <attachments/>
+                            <steps>
+                                <step start='1675254918046' status='broken' stop='1675254918067'>
+                                    <name>POST /session/:sessionId/url</name>
+                                    <title>POST /session/:sessionId/url</title>
+                                    <attachments>
+                                        <attachment title='Request' source='51138410-ff00-447e-8ed5-fdf804ad0382-attachment.json' type='application/json' size='61'/>
+                                    </attachments>
+                                    <steps>
+                                        <step start='1675254918047' status='broken' stop='1675254918067'>
+                                            <name>POST /session/:sessionId/window/maximize</name>
+                                            <title>POST /session/:sessionId/window/maximize</title>
+                                            <attachments/>
+                                            <steps>
+                                                <step start='1675254918047' status='passed' stop='1675254918052'>
+                                                    <name>POST /session/:sessionId/element</name>
+                                                    <title>POST /session/:sessionId/element</title>
+                                                    <attachments>
+                                                        <attachment title='Request' source='06912a7b-cd49-41ed-b9c0-4d53bd7e34c1-attachment.json' type='application/json' size='53'/>
+                                                    </attachments>
+                                                    <steps/>
+                                                </step>
+                                                <step start='1675254918058' status='broken' stop='1675254918067'>
+                                                    <name>GET /session/:sessionId/screenshot</name>
+                                                    <title>GET /session/:sessionId/screenshot</title>
+                                                    <attachments/>
+                                                    <steps/>
+                                                </step>
+                                            </steps>
+                                        </step>
+                                    </steps>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>invalid session id</message>
+                <stack-trace>invalid session id: invalid session id
+                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at async LoginPage.login (C:\Automation\AsianGroup\test\pageobjects\login.page.js:45:9)
+                    at async Context.&lt;anonymous> (C:\Automation\AsianGroup\test\specs\login.e2e.js:85:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1675254918067' status='broken' stop='1675254918104'>
+            <name>TC7 - As a user, it should NOT store credentials when remember me checkbox is unchecked</name>
+            <title>TC7 - As a user, it should NOT store credentials when remember me checkbox is unchecked</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-109.0.5414.120'/>
+            </parameters>
+            <steps>
+                <step start='1675254918068' status='broken' stop='1675254918104'>
+                    <name>DELETE /session/:sessionId</name>
+                    <title>DELETE /session/:sessionId</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1675254918068' status='broken' stop='1675254918104'>
+                            <name>POST /session/:sessionId/window/maximize</name>
+                            <title>POST /session/:sessionId/window/maximize</title>
+                            <attachments/>
+                            <steps>
+                                <step start='1675254918068' status='broken' stop='1675254918104'>
+                                    <name>POST /session/:sessionId/url</name>
+                                    <title>POST /session/:sessionId/url</title>
+                                    <attachments>
+                                        <attachment title='Request' source='725af460-8dd8-4e0c-855f-64046b81d4d1-attachment.json' type='application/json' size='61'/>
+                                    </attachments>
+                                    <steps>
+                                        <step start='1675254918069' status='broken' stop='1675254918104'>
+                                            <name>POST /session/:sessionId/window/maximize</name>
+                                            <title>POST /session/:sessionId/window/maximize</title>
+                                            <attachments/>
+                                            <steps>
+                                                <step start='1675254918070' status='passed' stop='1675254918081'>
+                                                    <name>POST /session/:sessionId/element</name>
+                                                    <title>POST /session/:sessionId/element</title>
+                                                    <attachments>
+                                                        <attachment title='Request' source='a1f98d2c-5e80-4313-ac54-d4dc9f6186d0-attachment.json' type='application/json' size='53'/>
+                                                    </attachments>
+                                                    <steps/>
+                                                </step>
+                                                <step start='1675254918097' status='broken' stop='1675254918104'>
+                                                    <name>GET /session/:sessionId/screenshot</name>
+                                                    <title>GET /session/:sessionId/screenshot</title>
+                                                    <attachments/>
+                                                    <steps/>
+                                                </step>
+                                            </steps>
+                                        </step>
+                                    </steps>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>invalid session id</message>
+                <stack-trace>invalid session id: invalid session id
+                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at async LoginPage.login (C:\Automation\AsianGroup\test\pageobjects\login.page.js:45:9)
+                    at async Context.&lt;anonymous> (C:\Automation\AsianGroup\test\specs\login.e2e.js:96:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1675254918104' status='broken' stop='1675254918136'>
+            <name>TC8 - As a user, it should be able to Login successfully</name>
+            <title>TC8 - As a user, it should be able to Login successfully</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-109.0.5414.120'/>
+            </parameters>
+            <steps>
+                <step start='1675254918105' status='broken' stop='1675254918136'>
+                    <name>DELETE /session/:sessionId</name>
+                    <title>DELETE /session/:sessionId</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1675254918106' status='broken' stop='1675254918136'>
+                            <name>POST /session/:sessionId/window/maximize</name>
+                            <title>POST /session/:sessionId/window/maximize</title>
+                            <attachments/>
+                            <steps>
+                                <step start='1675254918106' status='broken' stop='1675254918136'>
+                                    <name>POST /session/:sessionId/url</name>
+                                    <title>POST /session/:sessionId/url</title>
+                                    <attachments>
+                                        <attachment title='Request' source='59f9b0ac-7940-49fe-b78f-dc10b198304d-attachment.json' type='application/json' size='61'/>
+                                    </attachments>
+                                    <steps>
+                                        <step start='1675254918108' status='broken' stop='1675254918136'>
+                                            <name>POST /session/:sessionId/window/maximize</name>
+                                            <title>POST /session/:sessionId/window/maximize</title>
+                                            <attachments/>
+                                            <steps>
+                                                <step start='1675254918109' status='passed' stop='1675254918118'>
+                                                    <name>POST /session/:sessionId/element</name>
+                                                    <title>POST /session/:sessionId/element</title>
+                                                    <attachments>
+                                                        <attachment title='Request' source='63ad0c96-e35f-448b-8d9f-5c51b946140c-attachment.json' type='application/json' size='53'/>
+                                                    </attachments>
+                                                    <steps/>
+                                                </step>
+                                                <step start='1675254918133' status='broken' stop='1675254918136'>
+                                                    <name>GET /session/:sessionId/screenshot</name>
+                                                    <title>GET /session/:sessionId/screenshot</title>
+                                                    <attachments/>
+                                                    <steps/>
+                                                </step>
+                                            </steps>
+                                        </step>
+                                    </steps>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>invalid session id</message>
+                <stack-trace>invalid session id: invalid session id
+                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at async LoginPage.login (C:\Automation\AsianGroup\test\pageobjects\login.page.js:45:9)
+                    at async Context.&lt;anonymous> (C:\Automation\AsianGroup\test\specs\login.e2e.js:108:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,59 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1675150746873' stop='1675150750330'>
+    <name>Register feature validations</name>
+    <title>Register feature validations</title>
+    <test-cases>
+        <test-case start='1675150746874' status='broken' stop='1675150750329'>
+            <name>should be able to register new user successfully</name>
+            <title>should be able to register new user successfully</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-109.0.5414.120'/>
+            </parameters>
+            <steps>
+                <step start='1675150746875' status='passed' stop='1675150750026'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='a801ad94-0c2f-4a54-bf7f-59734f522692-attachment.json' type='application/json' size='61'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1675150750030' status='passed' stop='1675150750058'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='92a963a5-c8c6-40d2-a871-1d0e5cf739a8-attachment.json' type='application/json' size='66'/>
+                        <attachment title='Response' source='ce0047bb-7bce-466f-a97c-445306f98490-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1675150750078' status='passed' stop='1675150750222'>
+                    <name>POST /session/:sessionId/element/1c910c60-4d2f-4961-b80b-8a8c576968ba/click</name>
+                    <title>POST /session/:sessionId/element/1c910c60-4d2f-4961-b80b-8a8c576968ba/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1675150750223' status='passed' stop='1675150750329'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='85b7c92b-9d08-4e67-acfe-f9b072651417-attachment.png' type='image/png' size='83259'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>faker.email is not a function</message>
+                <stack-trace>TypeError: faker.email is not a function
+                    at Context.&lt;anonymous> (C:\Automation\AsianGroup\test\specs\register.e2e.js:13:49)
+                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,107 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1675242627456' stop='1675242641005'>
+    <name>Register feature validations</name>
+    <title>Register feature validations</title>
+    <test-cases>
+        <test-case start='1675242627456' status='failed' stop='1675242641004'>
+            <name>TC7 - As a user, it should be able to click back to Login when on Register page</name>
+            <title>TC7 - As a user, it should be able to click back to Login when on Register page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-109.0.5414.120'/>
+            </parameters>
+            <steps>
+                <step start='1675242627458' status='passed' stop='1675242629929'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='2bdeca58-151c-480b-b8c6-b8aa6b04b5e9-attachment.json' type='application/json' size='61'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1675242629931' status='passed' stop='1675242629949'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='8fdd73ad-fc31-462b-8911-458f0e64b830-attachment.json' type='application/json' size='66'/>
+                        <attachment title='Response' source='4a9c7604-9666-453f-9812-c3987784306c-attachment.json' type='application/json' size='968'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1675242629956' status='passed' stop='1675242629976'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='cec57f34-ae65-434c-8aa3-34722c2d72d6-attachment.json' type='application/json' size='66'/>
+                        <attachment title='Response' source='2fa7fc9d-0b87-4f3b-a324-d62a23433e25-attachment.json' type='application/json' size='2'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1675242630455' status='passed' stop='1675242630472'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='49ad3455-5e6a-4b6d-bac9-fa6da4e001fc-attachment.json' type='application/json' size='66'/>
+                        <attachment title='Response' source='1c020cc7-d5e0-431b-ba45-4d09bff49128-attachment.json' type='application/json' size='93'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1675242630475' status='passed' stop='1675242630486'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='df33adb7-dce8-48ca-8aae-bbda363ec2c7-attachment.json' type='application/json' size='66'/>
+                        <attachment title='Response' source='1fc35ed5-8135-489e-8aaf-ef6f2ce99aa9-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1675242630490' status='passed' stop='1675242630621'>
+                    <name>POST /session/:sessionId/element/70deeef1-e4e0-4cb8-959b-fd00d3bb110e/click</name>
+                    <title>POST /session/:sessionId/element/70deeef1-e4e0-4cb8-959b-fd00d3bb110e/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1675242630622' status='passed' stop='1675242630651'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='f80c4029-d7ec-4f18-b382-ec8eac0eb99c-attachment.json' type='application/json' size='65'/>
+                        <attachment title='Response' source='4e4470f4-788d-49fd-9b2c-7bcdedf379a8-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1675242630653' status='passed' stop='1675242630773'>
+                    <name>POST /session/:sessionId/element/ee3ede85-c534-4388-8a20-70fed96de016/click</name>
+                    <title>POST /session/:sessionId/element/ee3ede85-c534-4388-8a20-70fed96de016/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1675242640917' status='passed' stop='1675242641002'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='1618a4fd-bd8c-4165-9567-5a42b3855619-attachment.png' type='image/png' size='89208'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Expect  to be existing
+                
+                Expected: "existing"
+                Received: "not existing"</message>
+                <stack-trace>Error: Expect  to be existing
+                
+                Expected: "existing"
+                Received: "not existing"
+                    at Context.&lt;anonymous> (C:\Automation\AsianGroup\test\specs\register.e2e.js:97:43)
+                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,5 @@
+{
+  "error": "no such element",
+  "message": "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"div#kc-registration  a\"}\n  (Session info: chrome=109.0.5414.120)",
+  "stacktrace": "Backtrace:\n\t(No symbol) [0x00CD6643]\n\t(No symbol) [0x00C6BE21]\n\t(No symbol) [0x00B6DA9D]\n\t(No symbol) [0x00BA1342]\n\t(No symbol) [0x00BA147B]\n\t(No symbol) [0x00BD8DC2]\n\t(No symbol) [0x00BBFDC4]\n\t(No symbol) [0x00BD6B09]\n\t(No symbol) [0x00BBFB76]\n\t(No symbol) [0x00B949C1]\n\t(No symbol) [0x00B95E5D]\n\tGetHandleVerifier [0x00F4A142+2497106]\n\tGetHandleVerifier [0x00F785D3+2686691]\n\tGetHandleVerifier [0x00F7BB9C+2700460]\n\tGetHandleVerifier [0x00D83B10+635936]\n\t(No symbol) [0x00C74A1F]\n\t(No symbol) [0x00C7A418]\n\t(No symbol) [0x00C7A505]\n\t(No symbol) [0x00C8508B]\n\tBaseThreadInitThunk [0x770E00F9+25]\n\tRtlGetAppContainerNamedObjectPath [0x77817BBE+286]\n\tRtlGetAppContainerNamedObjectPath [0x77817B8E+238]\n"
+}
